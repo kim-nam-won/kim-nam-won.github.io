@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrated Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body onload="init()">
+    <div id="clock"></div>
+    <div id="loginSection">
+        <input type="text" id="username" placeholder="Username">
+        <button onclick="login()">로그인</button>
+    </div>
+    <div id="todoSection">
+        <input type="text" id="todoInput" placeholder="Add Todo">
+        <button onclick="addTodo()">할일 추가</button>
+        <ul id="todoList"></ul>
+    </div>
+    <div id="weather"></div>
+    <script src="script.js"></script>
+</body>
+</html>

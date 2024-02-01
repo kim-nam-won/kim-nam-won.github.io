@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+}
+
+#clock {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#todoList {
+  list-style-type: none;
+}
+
+/* 추가적인 스타일링은 여러분의 창의성에 따라 달라질 수 있습니다. */
